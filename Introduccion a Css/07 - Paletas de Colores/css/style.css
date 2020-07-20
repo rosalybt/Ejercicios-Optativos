@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+    font-family: Montserrat;
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+.letraClara {
+    color: white;
+}
+
+.letraOscura {
+    color: black;
+}
+
+.paleta1Color1 {
+    background-color: #001b48;
+}
+
+.paleta1Color2 {
+    background-color: #004581;
+}
+
+.paleta1Color3 {
+    background-color: #018abd;
+}
+
+.paleta1Color4 {
+    background-color: #97cbdc;
+}
+
+.paleta1Color5 {
+    background-color: #dde8f0;
+}
+
+.paleta2Color1 {
+    background-color: rgb(203,238,104);
+}
+
+.paleta2Color2 {
+    background-color: rgb(238,122,25);
+}
+
+.paleta2Color3 {
+    background-color: rgb(236,60,60);
+}
+
+.paleta2Color4 {
+    background-color: rgb(231,244,21);
+}
+
+.paleta2Color5 {
+    background-color: rgb(242,31,31);
+}
+
+
+.paleta3Color1 {
+    background-color:hsl(0,0%,100%);
+}
+
+.paleta3Color2 {
+    background-color: hsl(46.83,100%,75.88%));
+}
+
+.paleta3Color3 {
+    background-color: hsl(45,100%,60%);
+}
+
+.paleta3Color4 {
+    background-color: hsl(35.62,99.21%,49.61%);
+}
+
+.paleta3Color5 {
+    background-color: hsl(16.5,91.74%,42.75%);
+}

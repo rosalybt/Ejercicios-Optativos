@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     font-size: 40px;
     margin: 0px;
@@ -31,6 +35,3 @@ h3 {
     margin-top: 0px;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
