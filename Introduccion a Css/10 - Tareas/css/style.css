@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.pendiente {
+    margin-top: 0px;
+    color: blue;
+}
+
+.haciendo {
+    margin-top: 0px;
+    color: orange;
+}
+
+.hecha {
+    margin-top: 0px;
+    color: green;
+}
+
+.cancelada {
+    margin-top: 0px;
+    color: red;
+}

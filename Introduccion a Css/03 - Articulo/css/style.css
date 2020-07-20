@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #2271b3;
+}
+
+p {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.parrafo {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.italica {
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.italicaTipografia {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}

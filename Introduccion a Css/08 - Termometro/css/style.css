@@ -1,0 +1,43 @@
+li {
+    font-size: 40px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.temperatura5 {
+    color: #0099fe;
+}
+
+.temperatura10 {
+    color: #01ccff;
+}
+
+.temperatura15 {
+    color: #9fe7fe;
+}
+
+.temperatura20 {
+    color: #d0f8fc;
+}
+
+.temperatura25 {
+    color: #fcfde6;
+}
+
+.temperatura30 {
+    color: #ffff66;
+}
+
+.temperatura35 {
+    color: #ffca00;
+}
+
+.temperatura40 {
+    color: #ff9935;
+}
+
+.temperatura45 {
+    color: #fc3500;
+}

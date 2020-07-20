@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.tiempo {
+    font-size: 15px;
+    color: gray;
+    margin: 0px;
+}
+
+.comentario {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.reaccion {
+    margin-top: 0px;
+    background-color: #cdcdcd;
+}
