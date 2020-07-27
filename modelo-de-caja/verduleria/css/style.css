@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #a5d6a7;
+    text-align: center;
+    font-family: roboto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contenedor-principal{
+
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 2px 10px -2px black;
+}
+
+
+
+.frutas{
+    display: inline-block;
+background-color: white;
+padding: 3px;
+margin: 5px;
+border: 1px solid #d3d3d3;
+border-radius: 25px;
+text-align: center;
+width: 200px;
+height: 25px;
+
+
+
+}
