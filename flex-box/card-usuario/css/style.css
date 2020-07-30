@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-card {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: roboto, serif;
+    border-radius: 15px;
+   box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    margin-top: 20px;
+}
+
+div {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.nombre {
+    margin-bottom: 15px;
+    color: #6944ff;
+}
+
+.imagen-usuario {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.locacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.nombre-informacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.seguidores, .siguiendo, .articulos {
+    margin-top: 0;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.contenido-card-user {
+    display: block;
+    text-align: center;
+}
+
+.imagen-locacion, .facebook, .instagram, .twitter, .github img {
+    width: 24px;
+    height: 24px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.social-media {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.foto-perfil {
+    border-radius: 100px;
+}
+
+.red-social {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.facebook {
+    background-color: #1976D2;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.github {
+    background-color: #3333;
+}
+
+.accion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100px;
+   margin-top: 30px;
+    margin-bottom: 20px;
+}
+.boton{
+    background-color: #d5135a;
+border-radius: 50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border: none;
+width: 200px;
+height: 55px;
+padding: 10px;}
