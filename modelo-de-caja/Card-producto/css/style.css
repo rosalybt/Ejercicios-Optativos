@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+
+.contenedor{
+    display: inline-block;
+text-align: center;
+color: white;
+font-family: "Open Sans", sans-serif;
+
+
+}
+
+.etiqueta{
+
+    border: 1px solid #cb2140;
+    border-radius: 100px;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.foto{
+
+background-color: #cb2140;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+margin-bottom: 0px;
+width: 600px;
+padding: 30px;
+
+
+}
+
+.detalles{
+    margin-top: 0px;
+    background-color: #0c1f2c;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px;
+    width: 600px;
+
+
+}
+
+button{
+
+    background-color: #cb2140;
+    color: white;
+    border-radius: 100px;
+    border: transparent;
+    width: 100px;
+    height: 40px;
+}
+
+img{
+    display: block;
+    width: 200px;
+    margin: 20px auto 55px;
+}
+
+.precio{
+    font-size: 32px;
+    font-weight: 300;
+}

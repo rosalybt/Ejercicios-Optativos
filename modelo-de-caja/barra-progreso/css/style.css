@@ -1,0 +1,41 @@
+.barra{
+
+    width: 500px;
+    height: 30px;
+    background-color: #d3d3d3;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+.progreso-uno{
+    width: 10%;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.progreso-dos{
+    width: 25%;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+}
+.progreso-tres{
+    width: 50%;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+}
+.progreso-cuatro{
+    width: 75%;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+}
+.progreso-cinco{
+    width: 90%;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+}

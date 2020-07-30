@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background-color: #047cc4;
+    font-family: montserrat;
+}
+.contenedor{
+    background-color: #e1e1e1;
+
+    height: auto;
+    width: 310px;
+
+    border-radius: 5px;
+    padding: 5px;
+
+
+
+}
+
+
+.tarjeta{
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: white;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 20px;
+}

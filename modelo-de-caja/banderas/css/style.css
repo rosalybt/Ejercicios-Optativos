@@ -1,32 +1,31 @@
-.bandera{
+.bandera {
     display: block;
-   text-align: center;
-   width: auto;
-   height: auto;
-   margin: 20px;
-   border-radius: 15px;
-
-    
-  
-
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+ 
+    border-radius: 15px;
+    border: 5px solid #fbfbfb;
 }
-.contenedor-banderas{
-    display: inline-block;
+
+.contenedor-banderas {
     width: 99%;
     height: 99%;
+    text-align: center;
 }
-.nombre{
+
+.nombre {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-body{
-
+body {
     background-color: #d3d3d3;
 }
 
-img{
+img {
     width: 300px;
     height: 200px;
 }
