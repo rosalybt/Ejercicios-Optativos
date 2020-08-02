@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {
+    background-color: #E4EBEB;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tarjeta {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    margin-right: 0;
+}
+
+.encabezado {
+    text-align: left;
+    padding: 10px;
+}
+
+.contenedor-opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opciones {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbbb04;
+}
+
+.amarrila {
+    background-color: #fbbb04;
+}
+
+.blanco {
+    background-color: #ffffff;
+}
+
+.gris {
+    background-color: #E4EBEB;
+}
+
+.blog {
+    padding: 10px;
+    box-shadow: 1px 2px 10px -3px black;
+    height: 100%;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.titulo-articulo {
+    font-weight: 500;
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+span {
+    color: #fbbb04;
+    margin: 0;
+    font-weight: 200;
+    text-align: left;
+}
+
+.articulo {
+    padding: 20px;
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 15px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-blog {
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: medium;
+}
