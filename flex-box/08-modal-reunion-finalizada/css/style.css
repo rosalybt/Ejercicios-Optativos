@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: "Open sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D0CBF3;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #231E3E;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px -3px black;
+}
+
+.valoracion {
+    background-color: #6C6C8F;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+}
+
+.pregunta {
+    text-align: center;
+}
+
+.cerrar {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0;
+}
+
+.valoracion img {
+    width: 34px;
+    height: 34px;
+}
+
+.mensaje {
+    margin-bottom: 20px;
+}
+
+.estrellas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.escala {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.return {
+    margin: 20px;
+    width: 45%;
+    height: 35px;
+    background-color: #945cc4;
+    color: white;
+    border: none;
+}
+
+.join {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
