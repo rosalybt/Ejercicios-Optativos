@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.seccion-precios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    background-color: #333;
+    margin: 20px;
+    width: 300px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.seccion-precios :hover {
+    background-color: #808080;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.precio {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion-plan, .descripcion {
+    text-align: center;
+    margin-top: 0;
+}
+
+.lista-caracteristicas {
+    text-align: left;
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 15px;
+    height: 200px;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+.elegir-plan {
+    margin: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    border: transparent;
+    color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dado {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+}
+
+.punto {
+    background-color: black;
+    border-radius: 50%;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.dado-1 {
+    justify-content: center;
+}
+
+.dado-2 .fila:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.dado-3 .fila:nth-child(2) {
+    justify-content: center;
+}
+
+.dado-3 .fila:nth-child(3) {
+    justify-content: flex-end;
+}
+
+.dado-4 .fila:nth-child(1), .dado-4 .fila:nth-child(3) {
+    justify-content: space-between;
+}
+
+.dado-5 .fila:nth-child(1), .dado-5 .fila:nth-child(3) {
+    justify-content: space-between;
+}
+
+.dado-5 .fila:nth-child(2) {
+    justify-content: center;
+}
+
+.dado-6 .fila:nth-child(1), .dado-6 .fila:nth-child(2), .dado-6 .fila:nth-child(3) {
+    justify-content: space-between;
+}
