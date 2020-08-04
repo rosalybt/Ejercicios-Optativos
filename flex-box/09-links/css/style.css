@@ -8,6 +8,8 @@ body {
     height: 100vh;
 }
 
+
+
 .contenedor-principal {
     display: flex;
     flex-direction: column;

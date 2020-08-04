@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: roboto;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+header {
+    background-color: salmon;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+a {
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.fas {
+    display: none !important;
+    /*No quiso quitar el icono asi que, lo forcé*/
+}
+
+/*responsive*/
+
+@media (max-width:524px) {
+    ul {
+        display: none;
+    }
+    .fas {
+        display: flex !important;
+        margin-right: 20px;
+
+        /**al igual aqui tampoco quiso mostrarse/
+    }
+}
