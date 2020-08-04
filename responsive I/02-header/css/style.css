@@ -33,8 +33,8 @@ a {
     text-decoration: none;
 }
 
-.fas {
-    display: none !important;
+.fas.fa-bars {
+    display: none;
     /*No quiso quitar el icono asi que, lo forcé*/
 }
 
@@ -44,8 +44,8 @@ a {
     .lista-menu {
         display: none;
     }
-    .fas {
-        display: flex !important;
+    .fas.fa-bars {
+        display: flex;
         margin-right: 20px;
         /**al igual aqui tampoco quiso mostrarse/
     }
