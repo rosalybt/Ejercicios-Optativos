@@ -1,6 +1,3 @@
-const aPies = 5.3
-const bici = 10
-const auto = 30.3
 
 let escala1 = prompt("Ingrese la primera escala del vuelo")
 let escala2 = prompt("Ingrese la segunda escala del vuelo")
