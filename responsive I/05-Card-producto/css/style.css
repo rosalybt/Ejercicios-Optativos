@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contenedor-card {
+    flex-direction: column;
+
+    color: white;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 25px -3px black;
+}
+
+.nombre, .seccion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.seccion-etiquetas {
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta {
+    border: 1px solid #cb2140;
+    border-radius: 100px;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.foto {
+    background-color: #cb2140;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+.info {
+    margin-top: 0px;
+    background-color: #0c1f2c;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px;
+}
+
+.nombre-producto, .seccion-etiquetas, .seccion, .titulo-seccion {
+    margin-bottom: 20px;
+   text-align: center;
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin: 20px auto 55px;
+}
+
+.titulo-seccion {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.precio {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.boton {
+    background-color: #cb2140;
+    color: white;
+    border-radius: 100px;
+    border: transparent;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+@media(max-width:600px) {
+ 
+
+}
