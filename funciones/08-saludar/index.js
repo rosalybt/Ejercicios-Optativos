@@ -5,4 +5,4 @@ let saludar =(nombre)=>{
 
 let nombre = prompt("Cual es tu nombre?")
 
-alert(saludar(nombre))
+console.log(saludar(nombre))

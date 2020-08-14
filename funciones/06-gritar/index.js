@@ -6,4 +6,4 @@ let gritar = (texto) => {
 let palabra = prompt("Ingrese el texto")
 
 
-alert(`Grito :  ${gritar(palabra)}`)
+console.log(`Grito :  ${gritar(palabra)}`)
